@@ -1,0 +1,21 @@
+if mods["angelsbioprocessing"] and mods["bobmodules"] then
+  local LIB = bobmods.lib
+  LIB.recipe.remove_ingredient("speed-processor", "crystal-splinter-blue")
+  LIB.recipe.remove_ingredient("speed-processor-2", "crystal-shard-blue")
+  LIB.recipe.remove_ingredient("speed-processor-3", "crystal-full-blue")
+  LIB.recipe.remove_ingredient("productivity-processor", "crystal-splinter-red")
+  LIB.recipe.remove_ingredient("productivity-processor-2", "crystal-shard-red")
+  LIB.recipe.remove_ingredient("productivity-processor-3", "crystal-full-red")
+  LIB.recipe.remove_ingredient("effectivity-processor", "crystal-splinter-green")
+  LIB.recipe.remove_ingredient("effectivity-processor-2", "crystal-shard-green")
+  LIB.recipe.remove_ingredient("effectivity-processor-3", "crystal-full-green")
+  LIB.recipe.remove_ingredient("pollution-clean-processor", "crystal-splinter-harmonic")
+  LIB.recipe.remove_ingredient("pollution-clean-processor-2", "crystal-shard-harmonic")
+  LIB.recipe.remove_ingredient("pollution-clean-processor-3", "crystal-full-harmonic")
+  LIB.recipe.remove_ingredient("pollution-create-processor", "crystal-splinter-harmonic")
+  LIB.recipe.remove_ingredient("pollution-create-processor-2", "crystal-shard-harmonic")
+  LIB.recipe.remove_ingredient("pollution-create-processor-3", "crystal-full-harmonic")
+  LIB.recipe.remove_ingredient("beacon", "crystal-splinter-harmonic")
+  LIB.recipe.remove_ingredient("beacon-2", "crystal-shard-harmonic")
+  LIB.recipe.remove_ingredient("beacon-3", "crystal-full-harmonic")
+end
